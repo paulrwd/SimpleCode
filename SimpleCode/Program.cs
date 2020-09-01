@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace SimpleCode
 {
@@ -6,7 +7,13 @@ namespace SimpleCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            int a = 15;
+            int b = 4;
+            double result = a % b;
+            Console.WriteLine(result);
+
+            Console.ReadKey();
         }
     }
 }
